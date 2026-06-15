@@ -1,0 +1,29 @@
+//area of rectangle
+#include <stdio.h>
+
+int main()
+{
+    int l,b,area;
+    printf("enter length =%d",l);
+    scanf("%d",&l);
+    printf("enter breadth=%d",b);
+    scanf("%d",&b);
+    area=l*b;
+    printf("area of rectangle is %d",area);
+    return 0;
+ 
+ 
+}
+//perimeter of a rectangle
+#include <stdio.h>
+int main()
+{
+    int l,b,perimeter;
+    printf("enter length =%d",l);
+    scanf("%d",&l);
+    printf("enter breadth=%d",b);
+    scanf("%d",&b);
+    perimeter=2*(l+b);
+    printf("perimeter of rectangle is %d",perimeter);
+    return 0;
+}
