@@ -9,3 +9,33 @@ int main() {
 OUTPUT
 
 my age is 19
+
+TAKE TWO INTEGERS FOR USER AND PRINT THEM
+
+#include <stdio.h>
+
+int main() {
+    int a,b;
+    printf("enter two numbers:");
+    scanf("%d%d",&a,&b);
+     printf("first number is %d\n",a);
+     printf("second number is %d",b);
+    
+
+    return 0;
+}
+
+TAKE TWO INTEGERS AND PRINT THEIR SUM
+
+#include <stdio.h>
+
+int main() {
+    int a,b,sum;
+    printf("enter two numbers:");
+    scanf("%d%d",&a,&b);
+    sum=a+b;
+    printf("sum is %d",sum);
+    
+
+    return 0;
+}
