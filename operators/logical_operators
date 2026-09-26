@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+int main() {
+    int age,marks;
+    printf("enter age :");
+    scanf("%d",&age);
+    printf("enter marks;");
+    scanf("%d",&marks);
+    printf("AND result=%d\n",age>=18&&marks>=50);
+     printf("OR result=%d\n",age>=18||marks>=50);
+     printf("NOT result=%d\n",!age>=18);
+
+    return 0;
+}
+
+
+REMEBER
+
+&&--AND--both are true
+||--OR--one true is enough
+!--NOT--reverse
