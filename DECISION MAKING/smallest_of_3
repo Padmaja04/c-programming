@@ -1,0 +1,18 @@
+int main()
+{
+    int A,B,C;
+    printf("enter three numbers:");
+    scanf("%d%d%d",&A,&B,&C);
+    if(A<B&&A<C){
+        printf("A is smallest number");
+    }
+    else if (B<A&&B<C){
+        printf("B is smallest number");
+    }
+    else
+    printf("C is smallest number");
+}
+
+OUTPUT
+enter three numbers:25 10 5
+C is smallest number
