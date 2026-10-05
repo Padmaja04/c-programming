@@ -11,3 +11,19 @@ int main()
 
     return 0;
 }
+
+print n to 1
+
+
+int main()
+{
+    int n,i;
+    printf("enter numbers");
+    scanf("%d",&n);
+    for(i=n;i>=1;i--)
+    {
+        printf("%d",i);
+    }
+
+    return 0;
+}
